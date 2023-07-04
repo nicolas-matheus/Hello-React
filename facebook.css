@@ -1,0 +1,55 @@
+.main {
+    display: flex;
+}
+
+.main-content {
+    margin-left: 20%;
+    font-size: 18px;
+}
+
+.sidebar {
+    height: 100%;
+    width: 200px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding-top: 40px;
+    background-color: rgb(241, 239, 239);
+}
+
+.sidebar div {
+    padding: 8px;
+    font-size: 24px;
+    display: block;
+}
+
+.sidebar img{
+    border-color: rgb(0, 0, 0);
+    border: 20px;
+}
+
+.header {
+    width: 100%;
+}
+
+.btn{
+    justify-content: end;
+    display: flex;
+}
+
+.content{
+    display: flex;
+}
+
+.header-btn{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-content{
+    left: 50%;
+}
+
+
+
+
